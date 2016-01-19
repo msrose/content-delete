@@ -1,0 +1,28 @@
+{
+  "name": "content-delete",
+  "version": "0.1.0",
+  "description": "Delete everything inside a folder, but leave the folder.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msrose/content-delete.git"
+  },
+  "keywords": [
+    "directory",
+    "file",
+    "delete",
+    "content"
+  ],
+  "author": "Michael Rose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msrose/content-delete/issues"
+  },
+  "homepage": "https://github.com/msrose/content-delete#readme"
+}
