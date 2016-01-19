@@ -2,6 +2,12 @@
 
 Delete contents of a folder, but not the folder.
 
+Install with NPM
+
+```
+npm install content-delete
+```
+
 ## Command Line Usage
 
 Given a folder `tmp`, the command
@@ -17,7 +23,7 @@ removes everything from inside the folder, but leaves the folder itself.
 ```
 var condel = require('content-delete');
 
-condel('test', function(err, count) {
+condel('tmp', function(err, count) {
   // err.list is an array of any errors that occurred
   // err.successCount is the number of items deleted from the folder
   if(err) {
