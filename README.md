@@ -4,10 +4,10 @@ Delete contents of a folder, but not the folder.
 
 ## Command Line Usage
 
-Given a folder `test`, the command
+Given a folder `tmp`, the command
 
 ```
-node index.js test
+node content-delete tmp
 ```
 
 removes everything from inside the folder, but leaves the folder itself.
@@ -27,4 +27,20 @@ condel('test', function(err, count) {
   // count is the number of items deleted from the folder
   console.log('Deleted', count, 'items');
 });
+```
+
+## Development
+
+Get the code:
+
+```
+git clone https://github.com/msrose/content-delete.git
+cd content-delete
+npm install
+```
+
+Run the tests:
+
+```
+npm test
 ```

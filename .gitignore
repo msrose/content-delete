@@ -1,3 +1,4 @@
 *.swp
 *.swo
-test
+test/tmp
+node_modules
